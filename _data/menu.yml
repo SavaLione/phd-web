@@ -1,0 +1,45 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: Информация
+    entries:
+      - title: github репозиторий
+        url: https://github.com/riggraz/no-style-please
+
+  - title: История и философия науки
+    entries:
+      - title: Вопросы для аспирантов всех научных специальностей
+        post_list:
+          category: phd-philosophy
+          show_more: false
+      - title: Вопросы для аспирантов ИЕНИМ, ИНЭУ, УГИ
+      - title: Вопросы для аспирантов ИНМТ, ИРИТ-РТФ, ИНФО, ИСиА, ИФКСиМП, УралЭНИН, ФТИ, ХТИ
+
+  # - title: all posts
+  #   post_list:
+  #     limit: 5
+  #     show_more: true
+  #     show_more_text: See archive...
+  #     show_more_url: archive.html
+
+  # - title: posts by category
+  #   post_list:
+  #     category: example2
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: example2-archive.html
+
+  # # - title: rss
+  # #   url: feed.xml
+  
+  # - title: another list
+  #   entries:
+  #     - title: with subitems
+  #       entries:
+  #         - title: with subsubitems
+  #         - title: example page
+  #           url: about
+  # - title: PRO TIP
+  #   entries:
+  #     - title: to edit this menu, edit _data/menu.yml file

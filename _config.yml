@@ -1,0 +1,26 @@
+title: phd-urfu
+author: Savelii Pototskii
+email: savelii.pototskii@gmail.com
+url: https://riggraz.dev # root address of the site
+baseurl: ""
+description: "phd-urfu"
+
+# permalink: /:slug.html
+permalink: /:categories/:slug
+
+favicon: "logo.png"
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
