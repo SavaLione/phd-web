@@ -5,13 +5,13 @@ entries:
   - title: Информация
     entries:
       - title: github репозиторий
-        url: https://github.com/riggraz/no-style-please
+        url: https://github.com/SavaLione/phd-web
 
   - title: История и философия науки
     entries:
       - title: Вопросы для аспирантов всех научных специальностей
         post_list:
-          category: phd-philosophy
+          category: technical
           show_more: false
       - title: Вопросы для аспирантов ИЕНИМ, ИНЭУ, УГИ
       - title: Вопросы для аспирантов ИНМТ, ИРИТ-РТФ, ИНФО, ИСиА, ИФКСиМП, УралЭНИН, ФТИ, ХТИ
