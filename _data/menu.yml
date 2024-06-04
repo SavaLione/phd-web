@@ -11,10 +11,17 @@ entries:
     entries:
       - title: Вопросы для аспирантов всех научных специальностей
         post_list:
-          category: technical
+          category: general
           show_more: false
       - title: Вопросы для аспирантов ИЕНИМ, ИНЭУ, УГИ
       - title: Вопросы для аспирантов ИНМТ, ИРИТ-РТФ, ИНФО, ИСиА, ИФКСиМП, УралЭНИН, ФТИ, ХТИ
+        post_list:
+          category: technical
+          show_more: false
+      - title: Лекции
+        post_list:
+          category: lectures
+          show_more: false
 
   # - title: all posts
   #   post_list:
