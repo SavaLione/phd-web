@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{%-include back_link.html-%}
+
+{% for post in site.posts %}
+<article>
+  <p class="post-meta">
+    <time datetime="{{ post.date }}">{{ post.date | date: site.theme_config.date_format }}</time>
+  </p>
+  
+  <h1>{{ post.title }}</h1>
+
+  {{ post.content }}
+</article>
+{% endfor %}

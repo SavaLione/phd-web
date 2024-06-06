@@ -22,6 +22,10 @@ entries:
         post_list:
           category: lectures
           show_more: false
+      - title: Дополнительные материалы
+        post_list:
+          category: additional
+          show_more: false
 
   # - title: all posts
   #   post_list:
