@@ -27,5 +27,20 @@ plugins:
 
 # Collections
 collections:
-  pages:
+  philosophy_general:
     output: true
+    sort_by: number
+    permalink: /philosophy/general/:slug
+  philosophy_lectures:
+    output: true
+    sort_by: number
+    permalink: /philosophy/lectures/:slug
+  philosophy_technical:
+    output: true
+    sort_by: number
+    permalink: /philosophy/technical/:slug
+  philosophy:
+    output: true
+    permalink: /philosophy/:slug
+
+collections_dir: src

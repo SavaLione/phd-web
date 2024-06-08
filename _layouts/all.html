@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+{%-include back_link.html-%}
+
+<!-- General -->
+{% for item in site.philosophy_general %}
+<article>
+  <p class="post-meta">
+    <!-- <time datetime="{{ item.date }}">{{ item.date | date: site.theme_config.date_format }}</time> -->
+  </p>
+  
+  <h1>{{ item.number }}. {{ item.title }}</h1>
+
+  {{ item.content | markdownify }}
+</article>
+
+<hr>
+<hr>
+{% endfor %}
+
+
+<!-- Technical -->
+{% for item in site.philosophy_technical %}
+<article>
+  <p class="post-meta">
+    <!-- <time datetime="{{ item.date }}">{{ item.date | date: site.theme_config.date_format }}</time> -->
+  </p>
+  
+  <h1>{{ item.number }}. {{ item.title }}</h1>
+
+  {{ item.content | markdownify }}
+</article>
+
+<hr>
+<hr>
+{% endfor %}
+
+<!-- Lectures -->
+{% for item in site.philosophy_lectures %}
+<article>
+  <p class="post-meta">
+    <!-- <time datetime="{{ item.date }}">{{ item.date | date: site.theme_config.date_format }}</time> -->
+  </p>
+  
+  <h1>{{ item.number }}. {{ item.title }}</h1>
+
+  {{ item.content | markdownify }}
+</article>
+
+<hr>
+<hr>
+{% endfor %}
+
+<!-- Additional -->
+{% for item in site.philosophy %}
+<article>
+  <p class="post-meta">
+    <!-- <time datetime="{{ item.date }}">{{ item.date | date: site.theme_config.date_format }}</time> -->
+  </p>
+  
+  <h1>{{ item.number }}. {{ item.title }}</h1>
+
+  {{ item.content | markdownify }}
+</article>
+
+<hr>
+<hr>
+{% endfor %}

@@ -1,0 +1,87 @@
+---
+layout: default
+---
+<header>
+  <h1>{{ site.title }}</h1>
+  {%-if site.theme_config.show_description-%}
+    <p>{{ site.description }}</p>
+  {%-endif-%}
+</header>
+
+<!-- {%-include menu_item.html collection=site.data.menu.entries-%} -->
+
+
+<ul>
+    <li>
+        Информация
+    </li>
+    <ul>
+        <li>
+            <a href="https://github.com/SavaLione/phd-web">github репозиторий</a>
+        </li>
+    </ul>
+
+    <li>
+        История и философия науки
+    </li>
+    <ul>
+        <li>
+            Вопросы для аспирантов всех научных специальностей
+        </li>
+        <ul>
+            {% for item in site.philosophy_general %}
+            <li>
+                <a href="{{ item.url }}">{{ item.number }}. {{ item.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </ul>
+
+    <ul>
+        <li>
+            Вопросы для аспирантов ИЕНИМ, ИНЭУ, УГИ
+        </li>
+    </ul>
+
+    <ul>
+        <li>
+            Вопросы для аспирантов ИНМТ, ИРИТ-РТФ, ИНФО, ИСиА, ИФКСиМП, УралЭНИН, ФТИ, ХТИ
+        </li>
+        <ul>
+            {% for item in site.philosophy_technical %}
+            <li>
+                <a href="{{ item.url }}">{{ item.number }}. {{ item.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </ul>
+
+    <ul>
+        <li>
+            Лекции
+        </li>
+        <ul>
+            {% for item in site.philosophy_lectures %}
+            <li>
+                <a href="{{ item.url }}">{{ item.number }}. {{ item.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </ul>
+
+    <ul>
+        <li>
+            Дополнительные материалы
+        </li>
+        <ul>
+            {% for item in site.philosophy %}
+            <li>
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </ul>
+
+</ul>
+
+{{ content }}
