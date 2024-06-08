@@ -1,5 +1,5 @@
 # phd-urfu
-[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/SavaLione/phd-web/README.md) [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/SavaLione/phd-web/README.ru.md)
+[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/SavaLione/phd-web/blob/main/README.md) [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/SavaLione/phd-web/blob/main/README.ru.md)
 
 В данном репозитории находятся материалы по некоторым направлениям аспирантуры урфу.
 
@@ -12,7 +12,7 @@
 * `/src/_philosophy_humanities`  - Вопросы для аспирантов ИЕНИМ, ИНЭУ, УГИ
 
 ## Правовая информация
-Я постарался максимально сохранить форматирование и авторское право
+Я постарался максимально сохранить форматирование и авторское право.
 По требованию, я готов изменить указание авторства и т.д.
 
 Всё содержимое поставляется по лицензии GNU General Public License v3.

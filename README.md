@@ -1,5 +1,6 @@
 # phd-urfu
-[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/SavaLione/phd-web/README.md) [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/SavaLione/phd-web/README.ru.md)
+[![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/SavaLione/phd-web/blob/main/README.md) [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/SavaLione/phd-web/blob/main/README.ru.md)
+
 This repository contains content from different phd tracks of Ural Federal University (urfu).
 
 ## Directory structure
