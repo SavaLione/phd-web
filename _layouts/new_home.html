@@ -41,6 +41,13 @@ layout: default
         <li>
             Вопросы для аспирантов ИЕНИМ, ИНЭУ, УГИ
         </li>
+        <ul>
+            {% for item in site.philosophy_humanities %}
+            <li>
+                <a href="{{ item.url }}">{{ item.number }}. {{ item.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
     </ul>
 
     <ul>

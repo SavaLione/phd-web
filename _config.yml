@@ -34,6 +34,10 @@ collections:
     output: true
     sort_by: number
     permalink: /philosophy/general/:slug
+  philosophy_humanities:
+    output: true
+    sort_by: number
+    permalink: /philosophy/humanities/:slug
   philosophy_lectures:
     output: true
     sort_by: number
