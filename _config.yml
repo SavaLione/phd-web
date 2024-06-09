@@ -25,6 +25,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# Google analytics
+analytics_google: G-WYW0KGK158
+
 # Collections
 collections:
   philosophy_general:
