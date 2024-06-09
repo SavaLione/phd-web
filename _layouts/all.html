@@ -20,6 +20,21 @@ layout: default
 <hr>
 {% endfor %}
 
+<!-- Humanities -->
+{% for item in site.philosophy_humanities %}
+<article>
+  <p class="post-meta">
+    <!-- <time datetime="{{ item.date }}">{{ item.date | date: site.theme_config.date_format }}</time> -->
+  </p>
+  
+  <h1>{{ item.number }}. {{ item.title }}</h1>
+
+  {{ item.content | markdownify }}
+</article>
+
+<hr>
+<hr>
+{% endfor %}
 
 <!-- Technical -->
 {% for item in site.philosophy_technical %}
