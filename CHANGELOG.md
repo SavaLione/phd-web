@@ -12,3 +12,4 @@
 - Changed vs code settings (``.vscode/settings.json``)
 - Removed all drafts
 - Removed js code that hasn't been used
+- Added compiling section in readme
