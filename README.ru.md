@@ -3,6 +3,12 @@
 
 В данном репозитории находятся материалы по некоторым направлениям аспирантуры урфу.
 
+## Сборка
+1. Вам необходим Jekyll и bundler ([официальная документация по установке jekyll](https://jekyllrb.com/docs/installation/))
+2. ``git clone https://github.com/SavaLione/phd-web.git``
+3. ``bundler install``
+4. ``jekyll build``
+
 ## Структура директорий
 * `/src`                         - Все материалы
 * `/src/_philosophy`             - Дополнительные материалы по философии
@@ -18,7 +24,7 @@
 Всё содержимое поставляется по лицензии GNU General Public License v3.
 
 ## Дополнительная информация
-* Ссылка на GitHub: github.com/SavaLione/phd-web
+* GitHub: github.com/SavaLione/phd-web
 * Активная версия находится по адресу: phd.savalione.com
 * Почтовый адрес для связи: savelii.pototskii@gmail.com
 * savalione.com

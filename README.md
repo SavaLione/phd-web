@@ -3,6 +3,12 @@
 
 This repository contains content from different phd tracks of Ural Federal University (urfu).
 
+## Compiling
+1. You need Jekyll and bundler ([jekyll official installation documentation](https://jekyllrb.com/docs/installation/))
+2. ``git clone https://github.com/SavaLione/phd-web.git``
+3. ``bundler install``
+4. ``jekyll build``
+
 ## Directory structure
 * `/src`                         - All content
 * `/src/_philosophy`             - All philosophy content
