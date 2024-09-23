@@ -3,3 +3,12 @@
 - Changed ``robots.txt`` (now it should be universal)
 - Excluded page from ``sitemap.xml``
     - Page with all answers (``_layouts/all.html``)
+- Excluded files from jekyll via ``_config.md``
+    - Excluded ``CHANGELOG.md``
+    - Excluded ``README.md``
+    - Excluded ``README.ru.md``
+- Removed archive pages (``_layouts/archive.html``, ``./archive.md``, ``example2-archive.md``)
+- Removed about page (``_layouts/about.html``)
+- Changed vs code settings (``.vscode/settings.json``)
+- Removed all drafts
+- Removed js code that hasn't been used

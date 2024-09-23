@@ -51,3 +51,9 @@ collections:
     permalink: /philosophy/:slug
 
 collections_dir: src
+
+# Exclude files
+exclude:
+  - CHANGELOG.md
+  - README.md
+  - README.ru.md
