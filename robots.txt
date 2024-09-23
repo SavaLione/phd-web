@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /
 
-Sitemap: https://ph.savalione.com/sitemap.xml
+Sitemap: https://phd.savalione.com/sitemap.xml
