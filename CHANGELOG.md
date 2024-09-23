@@ -1,2 +1,5 @@
 - Added changelog (``CHANGELOG.md``)
 - Fixed typo in ``sitemap.xml``
+- Changed ``robots.txt`` (now it should be universal)
+- Excluded page from ``sitemap.xml``
+    - Page with all answers (``_layouts/all.html``)
