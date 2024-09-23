@@ -1,1 +1,2 @@
 - Added changelog (``CHANGELOG.md``)
+- Fixed typo in ``sitemap.xml``
