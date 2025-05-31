@@ -25,7 +25,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Google Analytics
+# Google Asnalytics
 analytics_google: G-60RZJFJJQ1
 
 # Collections
