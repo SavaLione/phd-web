@@ -15,3 +15,6 @@
 - Added compiling section in readme
 - Removed the page with all answers
 - Fixed the deprecated Sass tag `@import`
+- Changed website's title, description and main domain name
+- Changed the GitHub link description
+- All philosophy questions moved to `/phd/` root url

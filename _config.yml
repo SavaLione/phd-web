@@ -1,9 +1,9 @@
-title: phd-urfu
+title: PhD notes
 author: Savelii Pototskii
 email: savelii.pototskii@gmail.com
-url: https://phd.savalione.com # root address of the site
+url: https://urfu.su # root address of the site
 baseurl: ""
-description: "phd-urfu"
+description: "United Resources For Users"
 
 # permalink: /:slug.html
 permalink: /:categories/:slug
@@ -15,7 +15,7 @@ theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
+  show_description: true  # show blog description in home page
 
 sass:
   style: :compressed
@@ -33,22 +33,22 @@ collections:
   philosophy_general:
     output: true
     sort_by: number
-    permalink: /philosophy/general/:slug
+    permalink: /phd/philosophy/general/:slug
   philosophy_humanities:
     output: true
     sort_by: number
-    permalink: /philosophy/humanities/:slug
+    permalink: /phd/philosophy/humanities/:slug
   philosophy_lectures:
     output: true
     sort_by: number
-    permalink: /philosophy/lectures/:slug
+    permalink: /phd/philosophy/lectures/:slug
   philosophy_technical:
     output: true
     sort_by: number
-    permalink: /philosophy/technical/:slug
+    permalink: /phd/philosophy/technical/:slug
   philosophy:
     output: true
-    permalink: /philosophy/:slug
+    permalink: /phd/philosophy/:slug
 
 collections_dir: src
 
