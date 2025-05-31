@@ -24,7 +24,7 @@
 Всё содержимое поставляется по лицензии GNU General Public License v3.
 
 ## Дополнительная информация
-* GitHub: github.com/SavaLione/phd-web
-* Активная версия находится по адресу: phd.savalione.com
+* GitHub: [github.com/SavaLione/phd-web](https://github.com/SavaLione/phd-web)
+* Активная версия находится по адресу: [urfu.su](https://urfu.su)
 * Почтовый адрес для связи: savelii.pototskii@gmail.com
-* savalione.com
+* [savalione.com](https://savalione.com)

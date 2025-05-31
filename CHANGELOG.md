@@ -18,3 +18,4 @@
 - Changed website's title, description and main domain name
 - Changed the GitHub link description
 - All philosophy questions moved to `/phd/` root url
+- Changed readme files (updated links, fixed consistency, etc.)

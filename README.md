@@ -1,7 +1,7 @@
 # phd-urfu
 [![en](https://img.shields.io/badge/lang-en-green.svg)](https://github.com/SavaLione/phd-web/blob/main/README.md) [![ru](https://img.shields.io/badge/lang-ru-green.svg)](https://github.com/SavaLione/phd-web/blob/main/README.ru.md)
 
-This repository contains content from different phd tracks of Ural Federal University (urfu).
+This repository contains content from different PhD tracks of Ural Federal University (urfu).
 
 ## Compiling
 1. You need Jekyll and bundler ([jekyll official installation documentation](https://jekyllrb.com/docs/installation/))
@@ -24,7 +24,7 @@ Upon request, I'm ready to change attribution, etc.
 All content is licensed under the GNU General Public License v3.
 
 ## Additional information
-* GitHub: github.com/SavaLione/phd-web
-* Working web version: phd.savalione.com
+* GitHub: [github.com/SavaLione/phd-web](https://github.com/SavaLione/phd-web)
+* Working web version: [urfu.su](https://urfu.su)
 * Email: savelii.pototskii@gmail.com
-* savalione.com
+* [savalione.com](https://savalione.com)
