@@ -19,3 +19,4 @@
 - Changed the GitHub link description
 - All philosophy questions moved to `/phd/` root url
 - Changed readme files (updated links, fixed consistency, etc.)
+- Changed the Google Analytics tag
