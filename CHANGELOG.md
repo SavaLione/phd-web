@@ -14,3 +14,4 @@
 - Removed js code that hasn't been used
 - Added compiling section in readme
 - Removed the page with all answers
+- Fixed the deprecated Sass tag `@import`
